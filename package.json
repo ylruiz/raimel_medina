@@ -2,11 +2,9 @@
   "name": "raimel_website",
   "version": "1.0.0",
   "description": "Responsive porfolio website",
-  "homepage": "https://ylruiz.github.io/raimel_medina",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css --recursive",
-    "deploy": "gh-pages -d dist"
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
   },
   "author": "Yunet Luis Ruiz",
   "license": "MIT",
