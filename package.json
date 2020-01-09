@@ -3,15 +3,12 @@
   "version": "1.0.0",
   "description": "Responsive porfolio website",
   "main": "index.js",
-  "homepage": "https://ylruiz.github.io/raimel_medina",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css --recursive",
-    "deploy": "gh-pages -d dist"
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
   },
   "author": "Yunet Luis Ruiz",
   "license": "MIT",
   "dependencies": {
-    "gh-pages": "^2.2.0",
     "node-sass": "^4.13.0"
   }
 }
