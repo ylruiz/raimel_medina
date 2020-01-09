@@ -4,8 +4,7 @@
   "description": "Responsive porfolio website",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css --recursive",
-    "start": "node index.js"
+    "start": "node-sass -w scss/ -o dist/css --recursive"
   },
   "author": "Yunet Luis Ruiz",
   "license": "MIT",
